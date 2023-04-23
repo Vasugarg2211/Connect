@@ -94,6 +94,9 @@ function App() {
           <Route exact path="/learnings" element={<Seminars seminars={[]} />}>
           
           </Route>
+          <Route exact path="/" element={<HomePage/>}>
+          
+          </Route>
           <Route exact path="/posts" element={<Posts/>}>
           
           </Route>
